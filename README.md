@@ -1,0 +1,2 @@
+# how-to-rename-and-check-the-image-size-before-inserting-it-into-a-blazor-rich-text-editor-component
+This quick-start project helps to rename the uploaded image file and check its size before inserting it in the Blazor Rich Text Editor of Syncfusion in a Blazor WebAssembly app. This example explains how to rename the uploaded image file at the client side using the RTE’s OnImageUploadSuccess event and check the image size before uploading to the server side using the BeforeUploadImage event.
