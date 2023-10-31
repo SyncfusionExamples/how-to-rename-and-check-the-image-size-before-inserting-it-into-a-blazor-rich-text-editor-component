@@ -5,7 +5,7 @@
     <RichTextEditorEvents OnImageUploadSuccess="@ImageUploadSuccess" BeforeUploadImage="@BeforeUploadImage"></RichTextEditorEvents>
 </SfRichTextEditor>
 
-@code{
+@code {
 
     private void ImageUploadSuccess(ImageSuccessEventArgs args)
     {
@@ -14,9 +14,9 @@
 
     private void BeforeUploadImage(ImageUploadingEventArgs args)
     {
-        //if(args.FilesData[0].Size > 100000)
-        //{
-        //    args.Cancel = true;
-        //}
+        if(args.FilesData[0].Size > 100000)
+        {
+            args.Cancel = true;
+        }
     }
 }

@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net.Http.Headers;
 
-namespace MyBlazorApp.Server.Controllers
+namespace RenameAndCheckImage.Server.Controllers
 {
     [ApiController]
     public class ImageController : ControllerBase
